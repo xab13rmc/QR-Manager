@@ -67,3 +67,24 @@ Un pop-up se muestra dentro de la página web a la que lleva el QR, no de manera
 4. Dominios: **un dominio principal por negocio**.
 5. Logos: biblioteca reutilizable **y** carga individual por QR.
 6. Ediciones: guardar, publicar y mantener **historial de versiones**.
+
+
+## Exportación de códigos
+- PNG con transparencia real (sin fondo).
+- JPG (fondo opaco configurable, ya que JPG no admite transparencia).
+- PDF para impresión y SVG vectorial.
+- Exportación individual del QR conservando su estilo visual.
+
+## Activación y desactivación
+- Cada QR cuenta con estado **activo / inactivo** independiente de los demás.
+- Al desactivarlo se interrumpe su destino normal, sin modificar ni eliminar su URL pública.
+- El comportamiento al escanear un QR inactivo será configurable (página informativa predeterminada, mensaje personalizado o alternativa autorizada).
+- El estado y sus cambios se registran en el historial de versiones o auditoría según corresponda.
+
+## Pop-ups por QR y creatividades
+- **Cada QR decide de forma independiente** si utiliza o no pop-up. El valor por defecto podrá heredarse del negocio, pero se puede sobrescribir por QR.
+- Cuando el pop-up esté desactivado, no se mostrará una ventana intermedia por ese motivo.
+- Cuando esté activado, se podrán cargar creatividades propias **como mínimo en proporciones 1:1 y 5:4**.
+- Mantener la relación de aspecto original al presentar las creatividades, sin deformarlas; permitir previsualización para móvil y escritorio.
+- El pop-up se mostrará en la página web/intermedia correspondiente, no encima de la cámara de escaneo.
+- Definir por QR textos, botones, reglas para cerrar y comportamiento posterior al pop-up, además de su estado activado/desactivado.
