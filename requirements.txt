@@ -2,3 +2,4 @@ fastapi>=0.110,<1
 uvicorn>=0.29,<1
 python-multipart>=0.0.9,<1
 qrcode[pil]>=7.4,<9
+reportlab>=4,<5
